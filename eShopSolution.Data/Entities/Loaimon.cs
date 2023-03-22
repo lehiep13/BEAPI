@@ -12,5 +12,7 @@ namespace eShopSolution.Data.Entities
 		public String TENLOAI { get; set; }
 
 		public String MOTA { get; set; }
+		
+		public List<Product> products { get; set; }
 	}
 }

@@ -11,5 +11,6 @@ namespace eShopSolution.Data.Entities
 		public String MACA { get; set; }
 		public DateTime GioBatDau { get; set; }
 		public DateTime GioKetThuc { get; set; }
+		public List<NVCa> NVCas { get; set; }
 	}
 }

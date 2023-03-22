@@ -16,5 +16,13 @@ namespace eShopSolution.Data.Entities
 		public DateTime NGAYSINH  { get; set; }
 		public String GIOITINH { get; set; }
 		public String DIACHINV { get; set; }
+		public String MABOPHAN { get; set; }
+
+		public BoPhan BoPhan { get; set; }
+
+		public List<NVCa> NVCas { get; set; }
+		public List<ThanhToan> ThanhToans { get; set; }
+
+		public List<PhieuNhap> PhieuNhaps { get; set; }
 	}
 }
