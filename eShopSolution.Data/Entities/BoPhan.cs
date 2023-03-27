@@ -12,7 +12,7 @@ namespace eShopSolution.Data.Entities
 		public String CHUCNANG { get; set; }
 
 		public String TENBOPHAN { get; set; }
-
+		public List<NhanVien> nhanViens { get; set; }
 		
 	}
 }

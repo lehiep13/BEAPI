@@ -13,5 +13,7 @@ namespace eShopSolution.Data.Entities
 
 		public String DIACHINCC { get; set; }
 		public String SDTNCC { get; set; }
+
+		public List<PhieuCC> PhieuCCs { get; set; }
 	}
 }

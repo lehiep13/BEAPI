@@ -15,6 +15,11 @@ namespace eShopSolution.Data.Entities
 
 		public String MOTA { get; set; }
 		public decimal DONGIA { get; set;}
-
+		
+		public String MALOAI { get; set; }	
+		public List<MonAnKM> MonAnKMs { get; set; }
+		public List<ChiTietMA> ChiTietMAs { get; set; }
+		public Loaimon Loaimon { get; set; }
+		public List<PhieuGoi> phieuGois { get; set; }
 	}
 }
